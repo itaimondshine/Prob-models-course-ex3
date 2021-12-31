@@ -15,6 +15,4 @@ if __name__ == '__main__':
     _documents = read_file(args.development_set_filename[0])
     documnets_dict = save_distributions(_documents)
     print(documnets_dict[2]['doc_counter'])
-
-
-
+    print("try start")
